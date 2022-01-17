@@ -1,0 +1,18 @@
+
+import { Provider } from 'react-redux';
+import Cart from './components/Cart';
+import Catalog from './components/Catalog';
+import store from './store';
+
+function App() {
+  return (
+    //provando o estado global para todos os components
+    <Provider store={store}>
+      <Catalog />
+      <Cart />
+    </Provider>
+
+  );
+}
+
+export default App;
