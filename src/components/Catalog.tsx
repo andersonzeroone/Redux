@@ -10,8 +10,7 @@ function Catalog() {
 
 
   //recene uma funcao como paramentro e retorna algo
-  const store = useSelector(state => state)
-  console.log(store)
+  // const store = useSelector(state => state)
 
   const [catalogo, setCatalogo] = useState<ProductsProps[]>([]);
 
